@@ -1,0 +1,44 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: auto;
+	max-width: 30em;
+	background: #fff;
+	font-family: "PT Serif", serif;
+
+}
+img{
+	display: block;
+	max-width: 100%;
+}
+h1{
+	font-family: "PT Sans Narrow", sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.5em;
+	margin: 3em 0;
+}
+.piece{
+	margin-bottom: 2em;
+	position: relative;
+	overflow: hidden;
+}
+.piece:hover .caption{
+	transform: translateY(0);
+}
+.caption{
+	background: black;
+	background-color: rgba(0%,0%,0%,.5);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	padding: 1em;
+	transform: translateY(100%);
+	transition:all .2s ease;
+
+}
+.title{
+	font-style: italic;
+}
